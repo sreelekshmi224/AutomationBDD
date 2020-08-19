@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UstgDemoAppSuite]">
+  <test thread-count="5" name="UstgGroupDemoAppTest(failed)">
+    <classes>
+      <class name="com.stackroute.automation.testng.DemoTestNG4">
+        <methods>
+          <include name="demo04Test"/>
+          <include name="demo03Test"/>
+          <include name="demo01Test"/>
+          <include name="demo02Test"/>
+        </methods>
+      </class> <!-- com.stackroute.automation.testng.DemoTestNG4 -->
+    </classes>
+  </test> <!-- UstgGroupDemoAppTest(failed) -->
+</suite> <!-- Failed suite [UstgDemoAppSuite] -->

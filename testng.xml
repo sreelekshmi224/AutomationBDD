@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UstgDemoAppSuite">
+  
+  <test thread-count="5" name="UstgDemoAppSanityTest">
+    <classes>
+      <class name="com.stackroute.automation.testng.DemoTestNG01">
+      	<methods>
+      		<exclude name="demo01Test"></exclude>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- UstgDemoAppRegressionTest -->
+  
+  
+  <test thread-count="5" name="UstgDemoAppRegressionTest">
+    <classes>
+      <class name="com.stackroute.automation.testng.DemoTestNG01"/>
+      <class name="com.stackroute.automation.testng.DemoTestNG02"/>
+    </classes>
+  </test> <!-- UstgDemoAppRegressionTest -->
+  
+  
+</suite> <!-- UstgDemoAppSuite -->

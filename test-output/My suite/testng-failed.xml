@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My suite]">
+  <test thread-count="5" name="mytest1(failed)">
+    <parameter name="username" value="kurinchi"/>
+    <classes>
+      <class name="com.stackroute.automation.testng.DemoTestNG5">
+        <methods>
+          <include name="demo03Test"/>
+          <include name="demo01Test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.stackroute.automation.testng.DemoTestNG5 -->
+    </classes>
+  </test> <!-- mytest1(failed) -->
+</suite> <!-- Failed suite [My suite] -->

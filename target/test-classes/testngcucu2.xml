@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="automation">
+  <test name="automation">
+    <classes>
+      <class name="/automation/src/test/java/com/stackroute/automation/cucumber/CucumberRunnerTest.java">
+      	
+      </class>
+    </classes>
+  </test> <!-- UstgDemoAppRegressionTest -->
+</suite> <!-- UstgDemoAppSuite -->
